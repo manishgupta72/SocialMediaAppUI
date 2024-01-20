@@ -1,0 +1,28 @@
+
+.p-Form
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:2rem;
+}
+.infoInput
+{
+    
+    display: flex;
+    flex-direction: column;
+    outline: none;
+    border:none;
+    border-radius: 8px;
+    padding: 20px;
+    flex:1;
+    font-weight: 600;
+}
+.p-Form>div
+{
+    display: flex;
+    height: 2rem;
+    gap:1rem;
+    width: 90%;
+}
